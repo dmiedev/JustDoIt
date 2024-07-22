@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.JustDoIt" parent="Theme.Material3.DayNight" />
+
+    <style name="Theme.JustDoIt.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar" />
+</resources>
