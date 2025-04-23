@@ -1,9 +1,9 @@
 JustDoIt - aplikace pro správu úkolů.
 Autor: Dmitrii Egorov, 2024
 
-=== Uživatelská dokumentace ===
+# Uživatelská dokumentace
 
-1. ÚVOD
+## ÚVOD
 
 Aplikace JustDoIt je jednoduchá aplikace pro správu úkolů. Umožňuje uživatelům vytvářet, upravovat a
 mazat seznamy s úkoly a úkoly samotné.
@@ -26,7 +26,7 @@ Na obrazovce je mimo jiné seznam "Dnes", ve kterém jsou zobrazeny nedokončen�
 termín splnění dnes anebo v minulosti. Každý den aplikace automaticky posílá oznamovací zprávu o
 úkolech, které je třeba dnes splnit.
 
-2. INSTALACE
+## INSTALACE
 
 Aplikace JustDoIt je mobilní aplikace pro OS Android verze 10 a vyšší. Aplikaci lze nainstalovat z
 APK souboru, který je třeba stáhnout na zařízení a spustit. Po spuštění se zobrazí průvodce instalací,
@@ -36,11 +36,11 @@ Pro vytvoření APK souboru je třeba mít nainstalované vývojové prostředí
 kódy aplikace. Pro vytvoření APK souboru je otevřit zdrojové kódy jako projekt v Android Studiu a
 spustit proces sestavení APK souboru: Build -> Build Bundle(s) / APK(s) -> Build APK(s).
 
-3. POUŽITÍ
+## POUŽITÍ
 
 Poznámka: pro použití aplikace je občas nutné mít přístup k internetu.
 
-3.1 Přihlášení a registrace
+### Přihlášení a registrace
 
 Po otevření aplikace se uživatel automaticky anonymně přihlásí a dostaňe se na hlavní obrazovku, kde
 vidí seznamy s úkoly. Pro přihlášení ("Sign in") nebo registraci ("Sign up") je třeba kliknout na
@@ -53,7 +53,7 @@ V případě ztráty hesla je možné ho obnovit pomocí tlačítka "Send recove
 po stisknutí tlačítka obdrží na e-mail odkaz na webovou stránku pro obnovení hesla, kde může zadat
 nové heslo.
 
-3.2 Odhlášení a mazání účtu
+### Odhlášení a mazání účtu
 
 Pro odhlášení je třeba kliknout na tlačítko v pravém horním rohu obrazovky (ikonka s postavičkou) a
 vybrat možnost "Sign out". Po potvrzení odhlášení se uživatel automaticky odhlásí.
@@ -62,7 +62,7 @@ Pro smazání účtu je třeba kliknout na tlačítko v pravém horním rohu obr
 vybrat možnost "Delete account". Po potvrzení smazání účtu se všechna data uživatele smažou a uživatel
 bude automaticky přihlášen anonymně s novým účtem.
 
-3.3 Správa seznamů
+### Správa seznamů
 
 Pro vytvoření nového seznamu je třeba kliknout na tlačítko "+ Add list" v pravém dolním rohu obrazovky.
 Zobrazí se nová obrazovka, kde je třeba zadat název seznamu a vybrat ikonu. Po zadání názvu a výběru ikony
@@ -77,7 +77,7 @@ na hlavní brazovce.
 V případě mazání seznamu je třeba rozkliknout tlačítko s ikonou koše v pravém horním
 rohu obrazovky. Po potvrzení smazání seznamu se seznam smaže a zmizí z hlavní obrazovky.
 
-3.4 Správa úkolů
+### Správa úkolů
 
 Pro vytvoření nového úkolu je nejprve třeba na hlavní obrazovce rozkliknout seznam, do kterého chcete
 přidat úkol. Poté je třeba kliknout na tlačítko "+ Add task" v pravém dolním rohu obrazovky. Zobrazí se
@@ -102,7 +102,7 @@ Po označení úkol se přesune na konec seznamu.
 U každého úkolu je vidět zadané údaje včetně priority, které se zobrazuje jako několik vykřičníků podle
 prioritní úrovně. Čím více vykřičníků, tím vyšší priorita.
 
-3.5 Vyhledávání úkolů
+### Vyhledávání úkolů
 
 Pro vyhledávání úkolů je třeba kliknout na tlačítko s ikonou lupy v pravém horním rohu hlavní obrazovky.
 Zobrazí se obrazovka s polem pro zadání hledaného textu. Po zadání textu se zobrazí seznam úkolů,
@@ -112,7 +112,7 @@ kliknout na tlačítko s ikonou kříže v pravém rohu pole pro hledání.
 Na této obrazovce je možné třídit výsledky hledání podle termínu splnění, priority nebo názvu, a to
 stejným způsobem jako na obrazovce seznamu s úkoly.
 
-3.6 Seznam "Dnes"
+### Seznam "Dnes"
 
 Na hlavní obrazovce je zobrazen seznam "Dnes", ve kterém jsou zobrazeny nedokončené úkoly, které mají
 termín splnění dnes anebo v minulosti. Úkoly jsou zobrazeny podle termínu splnění, ale uživatelé mohou
@@ -120,13 +120,13 @@ třídit stejně jako na obrazovce seznamu s úkoly.
 
 Po označení úkolu jako splněného se úkol automaticky odstraní ze seznamu "Dnes".
 
-3.7 Oznamovací zprávy
+### Oznamovací zprávy
 
 Každý den kolem deváté hodiny ráno aplikace automaticky posílá oznamovací zprávu o úkolech, které je
 třeba dnes splnit. Zpráva sezobrazí jako notifikace na obrazovce zařízení. Uživatelé mohou rozkliknout
 notifikaci a dostanou se na obrazovku seznamu "Dnes".
 
-4. TECHNICKÁ POZNÁMKA
+## TECHNICKÁ POZNÁMKA
 
 Aplikace JustDoIt je napsána v jazyce Kotlin pro OS Android s použitím knihovny Jetpack Compose.
 Podporuje Material Design 3 a Dynamic Colors. Aplikace používá databázi Firestore pro uchovávání dat
